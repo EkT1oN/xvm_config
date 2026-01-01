@@ -43,8 +43,8 @@
       // Объект:    ally - союзник, squadman - взводный, teamKiller - тимкиллер, enemy - противник, player - игрок.
       // Состояние: alive - живой, dead - мертвый, blowedup - взорвана боеукладка.
       "ally_alive":          ${"def.al"},
-      "ally_dead":           "0x007700",
-      "ally_blowedup":       "0x007700",
+      "ally_dead":           "0x004400",
+      "ally_blowedup":       "0x004400",
       "squadman_alive":      ${"def.sq"},
       "squadman_dead":       "0x884400",
       "squadman_blowedup":   "0x884400",

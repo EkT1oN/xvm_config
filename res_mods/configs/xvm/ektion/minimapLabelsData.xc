@@ -8,9 +8,9 @@
     // Наборы цветов.
     "colors": {
       "txt": {
-        "ally_alive":          "#00FF00",
-        "ally_dead":           "#004400",
-        "ally_blowedup":       "#004400",
+        "ally_alive":          ${"colors.xc":"colors.system.ally_alive"},
+        "ally_dead":           ${"colors.xc":"colors.system.ally_dead"},
+        "ally_blowedup":       ${"colors.xc":"colors.system.ally_blowedup"},
         "squadman_alive":      "#FF8800",
         "squadman_dead":       "#884400",
         "squadman_blowedup":   "#884400",
@@ -22,9 +22,9 @@
         "enemy_blowedup":      "#880000"
       },
       "dot": {
-        "ally_alive":          "#00FF00",
-        "ally_dead":           "#004400",
-        "ally_blowedup":       "#004400",
+        "ally_alive":          ${"colors.xc":"colors.system.ally_alive"},
+        "ally_dead":           ${"colors.xc":"colors.system.ally_dead"},
+        "ally_blowedup":       ${"colors.xc":"colors.system.ally_blowedup"},
         "squadman_alive":      "#FF8800",
         "squadman_dead":       "#884400",
         "squadman_blowedup":   "#884400",
@@ -37,8 +37,8 @@
       },
       "lostDot": {
         "ally_alive":          "#99FF99",
-        "ally_dead":           "#004400",
-        "ally_blowedup":       "#004400",
+        "ally_dead":           ${"colors.xc":"colors.system.ally_dead"},
+        "ally_blowedup":       ${"colors.xc":"colors.system.ally_blowedup"},
         "squadman_alive":      "#E5BB8A",
         "squadman_dead":       "#884400",
         "squadman_blowedup":   "#884400",
