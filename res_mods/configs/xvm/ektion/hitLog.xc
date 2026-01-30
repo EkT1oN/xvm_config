@@ -71,12 +71,12 @@ Macros used in hitLog:
 			// false - disallow to move log in battle and allow macros for "x" and "y" settings.
 			// true - разрешить перемещение лога в бою и запретить макросы в настройках "x" и "y".
 			// false - запретить перемещение лога в бою и разрешить макросы в настройках "x" и "y".
-			"moveInBattle": true,
+			"moveInBattle": false,
 			"x": 50,
 			"y": 60,
 			// true - allow scrolling of the contents of the log.
 			// true - разрешить прокрутку содержимого лога.
-			"scrollLog": true,
+			"scrollLog": false,
 			// Group hits by players name.
 			// Группировать попадания по имени игрока.
 			"groupHitsByPlayer": true,
